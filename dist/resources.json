@@ -1,0 +1,51 @@
+{
+    "resources": [
+        {
+            "name": "controller/App.controller.js"
+        },
+        {
+            "name": "i18n/i18n.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "view/App.view.xml"
+        },
+        {
+            "name": "index.html"
+        },
+        {
+            "name": "Component.js"
+        },
+        {
+            "name": "images/Monitoring-of-systems-status-via-LEDs.jpeg"
+        },
+        {
+            "name": "images/Wifi-Signal-Strength-Collector.png"
+        },
+        {
+            "name": "images/Web-Pages-Slider.png"
+        },
+        {
+            "name": "images/Weather-Visualisation-Scenario-using-InfluxDB-Grafana.png"
+        },
+        {
+            "name": "images/Indoor-Location-Detection-Scenario.png"
+        },
+        {
+            "name": "images/Abdul.png"
+        },
+        {
+            "name": "model/CV.json"
+        },
+        {
+            "name": "manifest.json"
+        },
+        {
+            "name": "Component-preload.js",
+            "merged": true
+        },
+        {
+            "name": "neo-app.json"
+        }
+    ]
+}

@@ -1,0 +1,238 @@
+{
+	"personal":[{
+		"key": "First name",
+		"value": "Abdulkader"
+	}, {
+		"key": "Surname",
+		"value": "Chamoun"
+	}, {
+		"key": "Address",
+		"value": "Am Roten Acker 4\nRauenberg DE 69231."
+	}, {
+		"key": "Mobile number",
+		"value": "+49 157 381 61 023"
+	}, {
+		"key": "E-mail",
+		"value": "abdulkader.chamoun@sap.com"
+	}, {
+		"key": "Gender",
+		"value": "Male"
+	}, {
+		"key": "Date of birth",
+		"value": "20.01.1980"
+	}, {
+		"key": "Citizenship",
+		"value": "Syrian"
+	}, {
+		"key": "Marital status",
+		"value": "Married"
+	}, {
+		"key": "Children",
+		"value": "2"
+	}],
+	
+	"education": [{
+		"key": "10.2011 – 02.2015",
+		"value": "Master Degree in Electronic Engineering, Major “Computer Engineering” at “Department of Computers & Automatic Control Engineering, Faculty of Mechanical & Electrical Engineering” at “Tishreen University” in Latakia / Syria.\nGeneral average: “86.32%” Grade:  Excellent."
+	}, {
+		"key": "09/2005 – 06/2010",
+		"value": "Bachelor Degree in Computer Engineering at “Department of Computer Engineering, Faculty of Engineering & Technology” at “Arab Academy for Science, Technology & Maritime Transport” in Latakia / Syria. \nGPA:3.6 Grade: Excellent with Honor."
+	}, {
+		"key": "09.1998 – 06.2000",
+		"value": "Assistant Engineer – Major “Electronics” at “Intermediate Institute of Electricity and Mechanics” in Aleppo / Syria.\nGeneral average: “73.66%”        Grade:  Good."
+	}],
+	
+	"work": [{
+		"key": "01.02.2017 - Present",
+		"value": "Internship as developer within the “SAP Hana Cloud Platform Data Management” team at SAP SE in Walldorf/Germany."
+	}, {
+		"key": "10.2010– 09.2015",
+		"value": "Graduate Teaching Assistant at “Department of Computer Engineering, Faculty of Engineering & Technology” at “Arab Academy for Science, Technology & Maritime Transport” in Latakia / Syria."
+	}, {
+		"key": "09.2005 – 09.2015",
+		"value": "IT Support Manager at “Chamoun for Informatics” in Latakia / Syria (Part Time)."
+	}, {
+		"key": "03.2003 – 06.2007",
+		"value": "ICDL and Adobe Photoshop Trainer at “Al-Intabli Private Institute” in Latakia / Syria."
+	}, {
+		"key": "09.2001 – 08.2005",
+		"value": "IT Support at “Chamoun for Informatics” in Latakia / Syria \t(Full Time)."
+	}, {
+		"key": "07.2000 – 09.2000",
+		"value": "Internship in electro technical within “Subscribers Service Department” at “General Electricity Company” in Latakia / Syria."
+	}, {
+		"key": "02/1999 – 06/2000",
+		"value": "Technician at “Bashar Computer Center” in Aleppo / Syria (Part Time)."
+	}],
+	
+	"skills": [{
+		"key": "Language",
+		"value": [{
+			"key": "Arabic",
+			"value": "Native"
+		}, {
+			"key": "English",
+			"value": "B2"
+		}, {
+			"key": "Deutsch",
+			"value": "B1"
+		}]
+	}, {
+		"key": "Operating Systems",
+		"value": [{
+			"key": "Windows",
+			"value": "Advanced"
+		}, {
+			"key": "Linux",
+			"value": "Intermediate"
+		}, {
+			"key": "Mac",
+			"value": "Intermediate"
+		}]
+	}, {
+		"key": "IT Manager & Administration",
+		"value": [{
+			"key": "PC",
+			"value": "Expert"
+		}, {
+			"key": "Laptop",
+			"value": "Expert"
+		}, {
+			"key": "Server",
+			"value": "Intermediate"
+		}, {
+			"key": "Networks",
+			"value": "Advanced"
+		},{
+			"key": "Printer",
+			"value": "Advanced"
+		}]
+	}, {
+		"key": "Programming Language",
+		"value": [{
+			"key": "C#",
+			"value": "Advanced"
+		}, {
+			"key": "C++",
+			"value": "Intermediate"
+		}, {
+			"key": "Java",
+			"value": "Advanced"
+		}, {
+			"key": "Python",
+			"value": "Intermediate"
+		}]
+	}, {
+		"key": "Web Devellopment",
+		"value": [{
+			"key": "HTML",
+			"value": "Intermediate"
+		}, {
+			"key": "PHP",
+			"value": "Advanced"
+		}, {
+			"key": "MySQL",
+			"value": "Advanced"
+		}, {
+			"key": "JavaScript",
+			"value": "Intermediate"
+		}, {
+			"key": "SAP UI5",
+			"value": "Intermediate"
+		}]
+	}, {
+		"key": "Cloud Computing",
+		"value": [{
+			"key": "Cloud Foundry",
+			"value": "Intermediate"
+		}, {
+			"key": "SAP HANA",
+			"value": "Intermediate"
+		}]
+	},{
+		"key": "Mobile-App Programming",
+		"value": [{
+			"key": "Android Application Programming",
+			"value": "Intermediate"
+		}]
+	}, {
+		"key": "Computer Science & Engineering",
+		"value": [{
+			"key": "System Analyze and Design",
+			"value": "Intermediate"
+		}, {
+			"key": "Matlab Programming",
+			"value": "Intermediate"
+		}, {
+			"key": "Image Processing",
+			"value": "Basic knowledge"
+		}, {
+			"key": "Machine Learning",
+			"value": "Basic knowledge"
+		}]
+	}, {
+		"key": "Control & IoT",
+		"value": [{
+			"key": "PIC microcontroller",
+			"value": "Advanced"
+		}, {
+			"key": "Raspberry Pi",
+			"value": "Intermediate"
+		}, {
+			"key": "NodeMCU",
+			"value": "Intermediate"
+		}]
+	}, {
+		"key": "Graphic Design",
+		"value": [{
+			"key": "Adobe Photoshop",
+			"value": "Intermediate"
+		}]
+	}],
+	
+	"additional": [{
+		"key": "Publications",
+		"value": [{
+			"key": "2014",
+			"value": "“Designing and Implementing an Indoor Positioning System and Integrating it into Learning Management System” in “Tishreen University Journal for Research and Scientific Studies, Engineering Sciences Series”."
+		}]
+	}, {
+		"key": "Exhibitions",
+		"value": [{
+			"key": "2015",
+			"value": "Participation in “The Second Mechanical & Electrical Exhibition MEE2, Latakia/Syria” by “Mobile Learning Management System”."
+		}]
+	}, {
+		"key": "Competitions",
+		"value": [{
+			"key": "2014",
+			"value": "Participation in “The First National Competition for Mobile Applications Development Appd3, Syria” by “LearnKAD” Application."
+		}]
+	}, {
+		"key": "Memberships",
+		"value": [{
+			"key": "2002",
+			"value": "Syrian Computer Society"
+		}, {
+			"key": "2012",
+			"value": "Syrian Engineers Syndicate"
+		}]
+	}, {
+		"key": "Honors & awards",
+		"value": [{
+			"key": "2007",
+			"value": "Certificate of thanks and appreciation for the scientific contribution from “Arab Academy for Science, Technology & Maritime Transport” Latakia / Syria."
+		}, {
+			"key": "2011",
+			"value": "Scholarship from “Arab Academy for Science, Technology & Maritime Transport” to achieve a Master Degree in Computer Engineering at “Tishreen University” in Latakia / Syria."
+		}]
+	}],
+	
+	"hobbies": [{
+		"value": "Family"
+	}, {
+		"value": "Cooking"
+	}, {
+		"value": "Foreign Exchange"
+	}]
+}

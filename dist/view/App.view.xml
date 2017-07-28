@@ -1,0 +1,254 @@
+<mvc:View displayBlock="true" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout"
+	xmlns:f="sap.ui.layout.form" controllerName="opensap.myapp.controller.App">
+	<App>
+		<pages>
+			<Page title="Curriculum Vitae">	
+				<headerContent>
+			
+				</headerContent>
+			<subHeader>
+			<Toolbar >
+				<ImageContent
+		class="sapUiLargeMarginTop sapUiLargeMarginBottom"
+		src="images/Abdul.png"
+		description="Profile image"
+		/>
+					
+	
+	
+	<Text text="Abdul Kader Chamoun"/>
+			</Toolbar>
+		</subHeader>	
+				<content>
+					
+					<IconTabBar id="idIconTabBarMulti" expanded="{device>/isNoPhone}" class="sapUiResponsiveContentPadding">
+						<items>
+							
+							<IconTabFilter icon="sap-icon://business-card">
+								<Text text=""/>
+								<f:SimpleForm title="{i18n>personal}" editable="false" layout="ResponsiveGridLayout">
+									<f:content>
+										<Label text="{cv>/personal/0/key}"/>
+										<Text text="{cv>/personal/0/value}"/>
+										<Label text="{cv>/personal/1/key}"/>
+										<Text text="{cv>/personal/1/value}"/>
+										<Label text="{cv>/personal/2/key}"/>
+										<Text text="{cv>/personal/2/value}"/>
+										<Label text="{cv>/personal/3/key}"/>
+										<Text text="{cv>/personal/3/value}"/>
+										<Label text="{cv>/personal/4/key}"/>
+										<Text text="{cv>/personal/4/value}"/>
+										<Label text="{cv>/personal/5/key}"/>
+										<Text text="{cv>/personal/5/value}"/>
+										<Label text="{cv>/personal/6/key}"/>
+										<Text text="{cv>/personal/6/value}"/>
+										<Label text="{cv>/personal/7/key}"/>
+										<Text text="{cv>/personal/7/value}"/>
+										<Label text="{cv>/personal/8/key}"/>
+										<Text text="{cv>/personal/8/value}"/>
+										<Label text="{cv>/personal/9/key}"/>
+										<Text text="{cv>/personal/9/value}"/>
+									</f:content>
+								</f:SimpleForm>
+							</IconTabFilter>
+							<IconTabFilter icon="sap-icon://study-leave">
+								<Text text=""/>
+								<f:SimpleForm title="{i18n>education}" editable="false" layout="ResponsiveGridLayout">
+									<f:content>
+										<Label text="{cv>/education/0/key}"/>
+										<Text text="{cv>/education/0/value}"/>
+										<Label text=""/>
+										<Text text=""/>
+										<Label text="{cv>/education/1/key}"/>
+										<Text text="{cv>/education/1/value}"/>
+										<Label text=""/>
+										<Text text=""/>
+										<Label text="{cv>/education/2/key}"/>
+										<Text text="{cv>/education/2/value}"/>
+									</f:content>
+								</f:SimpleForm>
+							</IconTabFilter>
+							<IconTabFilter icon="sap-icon://building">
+								<Text text=""/>
+								<f:SimpleForm title="{i18n>experience}" editable="false" layout="ResponsiveGridLayout">
+									<f:content>
+										<Label text="{cv>/work/0/key}"/>
+										<Text text="{cv>/work/0/value}"/>
+										<Label text=""/>
+										<Text text=""/>
+										<Label text="{cv>/work/1/key}"/>
+										<Text text="{cv>/work/1/value}"/>
+										<Label text=""/>
+										<Text text=""/>
+										<Label text="{cv>/work/2/key}"/>
+										<Text text="{cv>/work/2/value}"/>
+										<Label text=""/>
+										<Text text=""/>
+										<Label text="{cv>/work/3/key}"/>
+										<Text text="{cv>/work/3/value}"/>
+										<Label text=""/>
+										<Text text=""/>
+										<Label text="{cv>/work/4/key}"/>
+										<Text text="{cv>/work/4/value}"/>
+										<Label text=""/>
+										<Text text=""/>
+										<Label text="{cv>/work/5/key}"/>
+										<Text text="{cv>/work/5/value}"/>
+										<Label text=""/>
+										<Text text=""/>
+										<Label text="{cv>/work/6/key}"/>
+										<Text text="{cv>/work/6/value}"/>
+									</f:content>
+								</f:SimpleForm>
+							</IconTabFilter>
+							<IconTabFilter icon="sap-icon://vertical-bar-chart-2">
+								<Text text=""/>
+								<f:SimpleForm title="{i18n>skills}" editable="false" layout="ResponsiveGridLayout">
+									<f:content>
+										<Label text="{cv>/skills/0/key}"/>
+										<Text text="{cv>/skills/0/value/0/key} / {cv>/skills/0/value/0/value}"/>
+										<Label text=""/>
+										<Text text="{cv>/skills/0/value/1/key} / {cv>/skills/0/value/1/value}"/>
+										<Label text=""/>
+										<Text text="{cv>/skills/0/value/2/key} / {cv>/skills/0/value/2/value}"/>
+										<Label text=""/>
+										<Text text=""/>
+										<Label text="{cv>/skills/1/key}"/>
+										<Text text="{cv>/skills/1/value/0/key} / {cv>/skills/1/value/0/value}"/>
+										<Label text=""/>
+										<Text text="{cv>/skills/1/value/1/key} / {cv>/skills/1/value/1/value}"/>
+										<Label text=""/>
+										<Text text="{cv>/skills/1/value/2/key} / {cv>/skills/1/value/2/value}"/>
+										<Label text=""/>
+										<Text text=""/>
+										<Label text="{cv>/skills/2/key}"/>
+										<Text text="{cv>/skills/2/value/0/key} / {cv>/skills/2/value/0/value}"/>
+										<Label text=""/>
+										<Text text="{cv>/skills/2/value/1/key} / {cv>/skills/2/value/1/value}"/>
+										<Label text=""/>
+										<Text text="{cv>/skills/2/value/2/key} / {cv>/skills/2/value/2/value}"/>
+										<Label text=""/>
+										<Text text="{cv>/skills/2/value/3/key} / {cv>/skills/2/value/3/value}"/>
+										<Label text=""/>
+										<Text text="{cv>/skills/2/value/4/key} / {cv>/skills/2/value/4/value}"/>
+										<Label text=""/>
+										<Text text=""/>
+										<Label text="{cv>/skills/3/key}"/>
+										<Text text="{cv>/skills/3/value/0/key} / {cv>/skills/3/value/0/value}"/>
+										<Label text=""/>
+										<Text text="{cv>/skills/3/value/1/key} / {cv>/skills/3/value/1/value}"/>
+										<Label text=""/>
+										<Text text="{cv>/skills/3/value/2/key} / {cv>/skills/3/value/2/value}"/>
+										<Label text=""/>
+										<Text text="{cv>/skills/3/value/3/key} / {cv>/skills/3/value/3/value}"/>
+										<Label text=""/>
+										<Text text=""/>
+										<Label text="{cv>/skills/4/key}"/>
+										<Text text="{cv>/skills/4/value/0/key} / {cv>/skills/4/value/0/value}"/>
+										<Label text=""/>
+										<Text text="{cv>/skills/4/value/1/key} / {cv>/skills/4/value/1/value}"/>
+										<Label text=""/>
+										<Text text="{cv>/skills/4/value/2/key} / {cv>/skills/4/value/2/value}"/>
+										<Label text=""/>
+										<Text text="{cv>/skills/4/value/3/key} / {cv>/skills/4/value/3/value}"/>
+										<Label text=""/>
+										<Text text="{cv>/skills/4/value/4/key} / {cv>/skills/4/value/4/value}"/>
+										<Label text=""/>
+										<Text text=""/>
+										<Label text="{cv>/skills/5/key}"/>
+										<Text text="{cv>/skills/5/value/0/key} / {cv>/skills/5/value/0/value}"/>
+										<Label text=""/>
+										<Text text="{cv>/skills/5/value/1/key} / {cv>/skills/5/value/1/value}"/>
+										<Label text=""/>
+										<Text text=""/>
+										<Label text="{cv>/skills/6/key}"/>
+										<Text text="{cv>/skills/6/value/0/key} / {cv>/skills/6/value/0/value}"/>
+										<Label text=""/>
+										<Text text=""/>
+										<Label text="{cv>/skills/7/key}"/>
+										<Text text="{cv>/skills/7/value/0/key} / {cv>/skills/7/value/0/value}"/>
+										<Label text=""/>
+										<Text text="{cv>/skills/7/value/1/key} / {cv>/skills/7/value/1/value}"/>
+										<Label text=""/>
+										<Text text="{cv>/skills/7/value/2/key} / {cv>/skills/7/value/2/value}"/>
+										<Label text=""/>
+										<Text text="{cv>/skills/7/value/3/key} / {cv>/skills/7/value/3/value}"/>
+										<Label text=""/>
+										<Text text=""/>
+										<Label text="{cv>/skills/8/key}"/>
+										<Text text="{cv>/skills/8/value/0/key} / {cv>/skills/8/value/0/value}"/>
+										<Label text=""/>
+										<Text text="{cv>/skills/8/value/1/key} / {cv>/skills/8/value/1/value}"/>
+										<Label text=""/>
+										<Text text="{cv>/skills/8/value/2/key} / {cv>/skills/8/value/2/value}"/>
+										<Label text=""/>
+										<Text text=""/>
+										<Label text="{cv>/skills/9/key}"/>
+										<Text text="{cv>/skills/9/value/0/key} / {cv>/skills/9/value/0/value}"/>
+										
+									</f:content>
+								</f:SimpleForm>
+							</IconTabFilter>
+							<IconTabFilter icon="sap-icon://badge">
+								<Text text=""/>
+								<f:SimpleForm title="{i18n>info}" editable="false" layout="ResponsiveGridLayout">
+									<f:content>
+										<Label text="{cv>/additional/0/key}"/>
+										<Text text="{cv>/additional/0/value/0/value} ({cv>/additional/0/value/0/key})"/>
+										<Label text=""/>
+										<Text text=""/>
+										<Label text="{cv>/additional/1/key}"/>
+										<Text text="{cv>/additional/1/value/0/value} ({cv>/additional/1/value/0/key})"/>
+										<Label text=""/>
+										<Text text=""/>
+										<Label text="{cv>/additional/2/key}"/>
+										<Text text="{cv>/additional/2/value/0/value} ({cv>/additional/2/value/0/key})"/>
+										<Label text=""/>
+										<Text text=""/>
+										<Label text="{cv>/additional/3/key}"/>
+										<Text text="{cv>/additional/3/value/0/value} ({cv>/additional/3/value/0/key})"/>
+										<Label text=""/>
+										<Text text="{cv>/additional/3/value/1/value} ({cv>/additional/3/value/1/key})"/>
+										<Label text=""/>
+										<Text text=""/>
+										<Label text="{cv>/additional/4/key}"/>
+										<Text text="{cv>/additional/4/value/0/value} ({cv>/additional/4/value/0/key})"/>
+										<Label text=""/>
+										<Text text="{cv>/additional/4/value/1/value} ({cv>/additional/4/value/1/key})"/>
+									</f:content>
+								</f:SimpleForm>
+							</IconTabFilter>
+							<IconTabFilter icon="sap-icon://palette">
+								<Text text=""/>
+								<f:SimpleForm title="{i18n>hobby}" editable="false" layout="ResponsiveGridLayout">
+									<f:content>
+										<Label text=""/>
+										<Text text="{cv>/hobbies/0/value}"/>
+										<Label text=""/>
+										<Text text="{cv>/hobbies/1/value}"/>
+										<Label text=""/>
+										<Text text="{cv>/hobbies/2/value}"/>
+									</f:content>
+								</f:SimpleForm>
+							</IconTabFilter>
+							<IconTabFilter icon="sap-icon://sap-logo-shape">
+								<Text text=""/>
+								<f:SimpleForm title="{i18n>work}" editable="false" layout="ResponsiveGridLayout">
+									<Carousel loop="true">
+										<pages>
+											<Image src="images/Monitoring-of-systems-status-via-LEDs.jpeg" press="handleImage1Press" height="600px"/>
+											<Image src="images/Web-Pages-Slider.png" press="handleImage2Press" height="600px"/>
+											<Image src="images/Indoor-Location-Detection-Scenario.png" press="handleImage3Press" height="600px"/>
+											<Image src="images/Wifi-Signal-Strength-Collector.png" press="handleImage4Press" height="600px"/>
+											<Image src="images/Weather-Visualisation-Scenario-using-InfluxDB-Grafana.png" press="handleImage5Press" height="600px"/>
+									</pages>
+								</Carousel>
+							</f:SimpleForm>
+						</IconTabFilter>
+					</items>
+				</IconTabBar>
+			</content>
+		</Page>
+	</pages>
+</App>
+</mvc:View>
